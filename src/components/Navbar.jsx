@@ -3,7 +3,7 @@ import {
     AppBar,
     Toolbar,
     Box,
-    Grid,
+    Grid2,
     Typography,
     Button,
   } from "@mui/material";
@@ -12,7 +12,7 @@ import {
 const Navbar = () => {
   return (
     <div>
-      <Grid container spacing={2} sx={{ margin: "2%" }}>
+      <Grid2 container spacing={2} sx={{ margin: "2%" }}>
         <Box sx={{ flexGrow: 1 }}>
           <AppBar position="static" style={{ background: '#ADD8E6' }}>
             <Toolbar variant="dense">
@@ -32,9 +32,9 @@ const Navbar = () => {
         </Toolbar>
       </AppBar>
     </Box>
-    </Grid>
-      <Grid item xs={12} sx={12} md={12} lg={12}>
-      </Grid>
+    </Grid2>
+      <Grid2 item xs={12} sx={12} md={12} lg={12}>
+      </Grid2>
     </div>
   )
 }
