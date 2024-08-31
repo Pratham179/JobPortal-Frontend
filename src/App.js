@@ -4,7 +4,7 @@ import AllPosts from './components/AllPosts';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Create from './components/Create';
 import Navbar from './components/Navbar';
-import Edit from './components/Edit.JSX';
+import Edit from './components/Edit';
 
 function App() {
   return (
